@@ -1,0 +1,128 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f7f9fc;
+    color: #333;
+}
+
+/* Headings styling */
+h1,
+h2 {
+    color: #5c67f2;
+}
+
+/* Button base styling */
+button {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    background-color: #5c67f2;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #4048d2;
+}
+
+/* Hover box styling (used to demonstrate mouseover events) */
+.hover-box {
+    padding: 20px;
+    background-color: #e0e0e0;
+    margin: 10px 0;
+    width: 200px;
+    text-align: center;
+    transition: background-color 0.3s;
+    /* Smooth color transition */
+}
+
+/* Tabs container styling */
+.tabs {
+    margin: 10px 0;
+}
+
+/* Tab content box styling */
+.tab-content {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+
+/* Input field styling */
+input {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Error message styling for form validation */
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+
+/* Animate button on hover */
+button {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    background-color: #5c67f2;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4048d2;
+    transform: scale(1.1);
+}
+
+/* Animated image */
+.animated-image {
+    width: 200px;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Class to trigger bounce animation */
+.bounce {
+    animation: bounce 0.6s;
+}
+
+/* Keyframes for bounce effect */
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    30% {
+        transform: translateY(-20px);
+    }
+
+    60% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Theme styles */
+body.light-theme {
+    background-color: #ffffff;
+    color: #333;
+}
+
+body.dark-theme {
+    background-color: #121212;
+    color: #e0e0e0;
+}

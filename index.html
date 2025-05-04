@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Event Playground</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>🎉 JavaScript Event Playground</h1>
+
+    <!-- Theme Toggle -->
+    <button id="toggleThemeBtn">Toggle Theme</button>
+
+    <!-- Animated Button and Image -->
+    <h2>Try Animations</h2>
+    <button id="animateImageBtn">Bounce the Image!</button>
+    <img id="imageToAnimate" class="animated-image" src="camphoto.jpg" alt="Animated" />
+
+    <!-- Event Handling Section -->
+    <section>
+        <h2>1. Event Handling 🎈</h2>
+        <button id="clickBtn">Click Me</button>
+        <div id="hoverBox" class="hover-box">Hover over me!</div>
+        <button id="secretBtn">Double Click Me</button>
+    </section>
+
+    <!-- Interactive Elements Section -->
+    <section>
+        <h2>2. Interactive Elements 🎮</h2>
+        <button id="changeTextBtn">Change Text</button>
+        <p id="textToChange">This text will change</p>
+
+        <!-- Tabs -->
+        <div class="tabs">
+            <button class="tab" onclick="showTab('tab1')">Tab 1</button>
+            <button class="tab" onclick="showTab('tab2')">Tab 2</button>
+        </div>
+        <div id="tab1" class="tab-content">This is Tab 1 content.</div>
+        <div id="tab2" class="tab-content" style="display: none;">This is Tab 2 content.</div>
+    </section>
+
+    <!-- Form Validation Section -->
+    <section>
+        <h2>3. Form Validation 📋✅</h2>
+        <form id="signupForm">
+            <input type="text" id="username" placeholder="Username" required />
+            <input type="email" id="email" placeholder="Email" required />
+            <input type="password" id="password" placeholder="Password (min 8 chars)" required />
+            <button type="submit">Submit</button>
+            <p id="errorMsg" class="error-message"></p>
+        </form>
+    </section>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
